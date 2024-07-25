@@ -1,5 +1,0 @@
-[Mount]
-What=//192.168.10.2/creed
-Where=/home/creed/deeptank
-Options=credentials=/home/creed/deeptank.credentials,noperm,vers=4,_netdev
-Type=cifs

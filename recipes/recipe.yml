@@ -68,4 +68,4 @@ modules:
   - type: systemd
     system:
       enabled:
-        - deeptank.automount
+        - var-home-creed-deeptank.mount
