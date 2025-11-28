@@ -1,13 +1,14 @@
 [Unit]
-  Description=cifs mount script
-  Requires=network-online.target
-  After=network-online.service
+Description=cifs mount script
+Requires=network-online.target
+After=network-online.service
 
 [Mount]
-  What=//192.168.10.2/creed
-  Where=/var/home/creed/deeptank
-  Options=credentials=/home/creed/deeptank.credentials,noperm,vers=3,_netdev
-  Type=cifs
+What=//192.168.10.2/creed
+Where=/var/home/creed/deeptank
+Options=credentials=/home/creed/deeptank.credentials,noperm,vers=3,_netdev
+Type=cifs
 
 [Install]
-  WantedBy=multi-user.target
+WantedBy=remote-fs.target
+WantedBy=multi-user.target
