@@ -59,7 +59,3 @@ modules:
     system:
       enabled:
         - var-home-creed-deeptank.mount
-
-  - type: script
-    snippets:
-      - "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\""
