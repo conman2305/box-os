@@ -29,8 +29,8 @@ modules:
 
   - type: files
     files:
-      - source: etc
-        destination: /etc
+      - source: usr
+        destination: /usr
 
   - type: dnf
     install:
