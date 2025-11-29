@@ -45,7 +45,7 @@ modules:
         - antigravity.repo
     install:
       packages:
-        antigravity
+        - antigravity
 
   - type: default-flatpaks
     configurations:
