@@ -39,6 +39,14 @@ modules:
         - autofs
         - zsh
 
+  - type: dnf
+    repos:
+      files:
+        - antigravity.repo
+    install:
+      packages:
+        antigravity
+
   - type: default-flatpaks
     configurations:
       - scope: system
