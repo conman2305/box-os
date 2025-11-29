@@ -47,6 +47,11 @@ modules:
       packages:
         - antigravity
 
+  - type: dnf
+    group-install:
+      packages:
+        - "development-tools"
+
   - type: default-flatpaks
     configurations:
       - scope: system
