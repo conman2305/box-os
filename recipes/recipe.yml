@@ -41,6 +41,7 @@ modules:
         - perl-FindBin
         - perl-IPC-Cmd
         - perl-File-Compare
+        - perl-Time-Piece
 
   - type: dnf
     repos:
