@@ -38,6 +38,7 @@ modules:
         - snapd
         - autofs
         - zsh
+        - perl-FindBin
 
   - type: dnf
     repos:
