@@ -39,6 +39,7 @@ modules:
         - autofs
         - zsh
         - perl-FindBin
+        - perl-IPC-Cmd
 
   - type: dnf
     repos:
