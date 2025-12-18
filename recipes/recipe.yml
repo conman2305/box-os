@@ -70,6 +70,7 @@ modules:
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
   - from-file: openrgb.yml 
+  - from-file: linux-arctis-manager.yml
   - type: systemd
     system:
       enabled:
