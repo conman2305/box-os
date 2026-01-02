@@ -1,0 +1,17 @@
+modules:
+  - type: dnf
+    repos:
+      copr:
+        - lizardbyte/beta
+    install:
+      packages:
+        - Sunshine
+
+  - type: script
+    scripts:
+      - install-sunshine.sh
+
+  - type: systemd
+    user:
+      enabled:
+        - sunshine.service
