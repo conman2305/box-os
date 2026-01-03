@@ -42,6 +42,7 @@ modules:
         - perl-IPC-Cmd
         - perl-File-Compare
         - perl-Time-Piece
+        - mono-core
 
   - type: dnf
     repos:
