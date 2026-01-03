@@ -44,6 +44,7 @@ modules:
         - perl-Time-Piece
         - mono-core
         - g++
+        - python3.14-devel
 
   - type: dnf
     repos:
