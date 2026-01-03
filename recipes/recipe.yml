@@ -43,6 +43,7 @@ modules:
         - perl-File-Compare
         - perl-Time-Piece
         - mono-core
+        - g++
 
   - type: dnf
     repos:
