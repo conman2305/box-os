@@ -75,6 +75,10 @@ modules:
   - from-file: openrgb.yml 
   - from-file: linux-arctis-manager.yml
   - from-file: sunshine.yml
+  - type: script
+    snippets:
+      - "curl -fsSL https://tailscale.com/install.sh | sh"
+
   - type: systemd
     system:
       enabled:
