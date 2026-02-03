@@ -4,7 +4,7 @@ set -ouex pipefail
 # Clone the repository
 git clone https://github.com/elegos/Linux-Arctis-Manager.git /tmp/Linux-Arctis-Manager
 cd /tmp/Linux-Arctis-Manager
-git checkout v1.6.3
+git checkout develop 
 
 # Build dependencies
 # We need pipenv to manage the build environment as per the upstream method
