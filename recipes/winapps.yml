@@ -1,0 +1,12 @@
+modules:
+  # Docker already installed
+  - type: dnf
+    install:
+      packages:
+        - curl
+        - dialog
+        - freerdp
+        - git
+        - iproute
+        - libnotify
+        - nmap-ncat

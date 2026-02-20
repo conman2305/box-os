@@ -75,6 +75,7 @@ modules:
   - from-file: openrgb.yml 
   #- from-file: linux-arctis-manager.yml
   - from-file: sunshine.yml
+  - from-file: winapps.yml
   - type: script
     snippets:
       - "curl -fsSL https://tailscale.com/install.sh | sh"
