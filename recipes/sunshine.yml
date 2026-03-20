@@ -11,7 +11,3 @@ modules:
     scripts:
       - install-sunshine.sh
 
-  - type: systemd
-    user:
-      enabled:
-        - sunshine.service
