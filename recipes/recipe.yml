@@ -45,6 +45,7 @@ modules:
         - mono-core
         - g++
         - python3.14-devel
+        - nodejs-npm
 
   - type: dnf
     repos:
