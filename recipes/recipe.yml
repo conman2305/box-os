@@ -55,6 +55,10 @@ modules:
       packages:
         - antigravity
 
+  - type: script
+    snippets:
+      - "curl -fsSL https://antigravity.google/cli/install.sh | bash"
+
   - type: dnf
     group-install:
       packages:
